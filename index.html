@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hekkura's Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<script defer src="main.js"></script>
+
+<body>
+    <header>
+        <div class="nameplate">
+            <img id="headerIcon" src="assets/Icon1.png" alt="headerIcon">
+            <h3>Hekkura</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#headerIcon">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#content">Artwork</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="banner_container">
+        <div class="banner img1 active" >
+            <h1>Hekkura's</h1>
+            <h3>Gallery</h3>
+        </div>
+        <div class="banner img2" >
+            <h1>Hekkura's</h1>
+            <h3>Gallery</h3>
+        </div>
+        <div class="banner img3" >
+            <h1>Hekkura's</h1>
+            <h3>Gallery</h3>
+        </div>
+        <div class="banner img4" >
+            <h1>Hekkura's</h1>
+            <h3>Gallery</h3>
+        </div>
+
+        <button class="btn prev" onclick="pressButton(-1)">&#10094;</button>
+        <button class="btn next" onclick="pressButton(1)">&#10095;</button>
+    </div>
+<!-- =======================================Content Section ========================== -->
+
+<div class="container_content" id="content">
+
+    <div class="row">
+        <div class="column">
+            <article class="card">
+                <img class="featured-image" src="assets/content/YunJin.png" alt="YunJin">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+         
+            <article class="card">
+                <img class="featured-image" src="assets/content/kazuha.png" alt="Kazuha">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+        </div>
+
+        <div class="column">
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/shino.png" alt="ShinoKani">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/yoimiyaAuwi.png" alt="YoimiyaAuwi">
+    
+                <section>
+                    <p>By : Auwi</p>
+                </section>
+                
+            </article>
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/prom.png" alt="Prom">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+        </div>
+
+        <div class="column">
+            <article class="card">
+                <img class="featured-image" src="assets/content/Eula.png" alt="Eula">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/Jean.png" alt="Jean">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+        </div>
+
+        <div class="column">
+            <article class="card">
+                <img class="featured-image" src="assets/content/pistols.png" alt="Pistols">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/AyakaAuwi.png" alt="Ayaka">
+    
+                <section>
+                    <p>By : Auwi</p>
+                </section>
+                
+            </article>
+
+            <article class="card">
+                <img class="featured-image" src="assets/content/Rosa.png" alt="Rosa">
+    
+                <section>
+                    <p>By : Hekkura</p>
+                </section>
+                
+            </article>
+        </div>
+
+      </div>
+</div>
+
+<!-- =======================================About Section ========================== -->
+<div class="container_about" id="about">
+
+    <div class="about">
+        <article class="card about_us">
+            <h1>About Us</h1>
+            <p>Hekkura's Gallery is a website for showcasing art from Hekkura as well as other artists.</p>
+        </article>
+    </div>
+    <aside>
+        <article class="profile">
+            
+            <figure>
+                <img src="assets/IMG_20220214_100942.jpg" alt="">
+            </figure>
+            
+            <section>
+                
+                <h3 id="profile_top">Henry Hamilton Prasetya</h3>
+                <p id="profile_mid">Semester 6 Bina Nusantara University</p>
+                
+                
+                <h4>Computer Science Student, Digital Artist</h4> 
+            </section>
+            
+        </article>  
+    </aside>
+    
+</div>   
+
+</main>
+<!-- ======================================Footer=========================== -->
+<footer>
+    <div class="container_footer">
+        <h5>&#169;2022, Henry Hamilton Prasetya</h6>
+        <p>Disclaimer : Do not copy artwork.</p>
+        <p>all artworks are credited to their original artists.</p> 
+        <p>Banner backgrounds from Cognosphere, Kyoto Animation, and Type-Moon.</p>
+    </div>
+    
+</footer>
+
+
+</body>
+</html>
